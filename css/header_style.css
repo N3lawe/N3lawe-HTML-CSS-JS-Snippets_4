@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: blueviolet;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* start header */
+.header {
+  width: 100%;
+  height: 100%;
+}
+
+.ineer_hader {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background: var(--main-color);
+}
+
+.ineer_hader ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.ineer_hader ul li {
+  margin: 0 1rem;
+  padding: 1rem;
+}
+
+.ineer_hader ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 20px;
+  font: bold;
+}
+
+.ineer_hader ul li a:hover {
+  color: white;
+}
+/* End header */
+/* start footer */
+footer {
+  background-color: var(--main-color);
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer p:hover {
+  color: white;
+  cursor: pointer;
+}
+/* End footer */
